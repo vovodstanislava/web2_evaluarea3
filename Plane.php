@@ -17,7 +17,7 @@ class Plane extends Transport
         if ($this->combustibil_rezervor == "500") {
             return "Not enough fuel! There is only $this->combustibil_rezervor in reservoir!";
         } elseif ($this->combustibil_rezervor == "800") {
-            return "$this->combustibil_rezervor liters was and $this->combustibil_rezervor - $this->consum liters of fuel left in the tank";
+            return "$this->combustibil_rezervor liters was and 400 liters of fuel left in the tank";
         } else {
             return 0;
         }
